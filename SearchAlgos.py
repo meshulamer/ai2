@@ -24,13 +24,13 @@ class SearchAlgos:
         self.perform_move = perform_move
         self.undo_move = undo_move
 
-    def search(self, state, maximizing_player, time_limit):
+    def search(self, state, time_limit):
         pass
 
 
 class MiniMax(SearchAlgos):
 
-    def search(self, state, maximizing_player, time_limit):
+    def search(self, state, time_limit):
         """Start the MiniMax algorithm.
         :param state: The state to start from.
         :param depth: The maximum allowed depth for the algorithm.
